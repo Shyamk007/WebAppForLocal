@@ -6,6 +6,7 @@ const data = require('./data.js');
 
 const app = express();
 app.use(bodyParser.json());
+// hello wveryone
 
 app.get("/home",async(req,res)=>{
     try{
